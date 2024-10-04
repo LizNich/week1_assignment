@@ -13,7 +13,6 @@ body {
   background-size: cover;
   background-position: center;
 }
-
 .start {
   background-image: url(./start.jpg);
 }
@@ -30,4 +29,60 @@ P {
   position: absolute;
   left: 100px;
   bottom: 300px;
+}
+
+.container1 {
+  background-color: black;
+  width: 80%;
+  min-height: 100px;
+  padding: 10px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.box {
+  width: 150px;
+  height: 30px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-radius: 25%;
+}
+
+.one {
+  background-color: #f3f1ec;
+  width: 200px;
+}
+
+.two {
+  background-color: #f3f1ec;
+}
+
+.three {
+  background-color: #f3f1ec;
+}
+
+.four {
+  background-color: #f3f1ec;
+}
+
+.five {
+  background-color: #f3f1ec;
+}
+#footer {
+  font-size: 16px;
+  color: white;
+  position: fixed;
+  align-items: bottom;
+  margin: auto 0;
 }
