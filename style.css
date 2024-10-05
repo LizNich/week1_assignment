@@ -3,6 +3,7 @@
 }
 body {
   margin: 0;
+  background-color: rgb(116, 6, 6);
 }
 
 /* Nav Bar */
@@ -39,6 +40,14 @@ body {
 .one {
   width: 250px;
   font-size: 30px;
+}
+
+/*home with 'nav'*/
+.two {
+  width: 80px;
+  font-size: 20px;
+  color: white;
+  font-family: verdana;
 }
 
 /* Images */
@@ -86,7 +95,7 @@ body {
 }
 .container2_text {
   font-family: verdana;
-  color: red;
+  color: white;
 }
 /* Page 2 Middle */
 .container3 {
@@ -101,7 +110,7 @@ body {
 
 .container3_text {
   font-family: verdana;
-  color: red;
+  color: white;
 }
 /* Page 3 End */
 .container4 {
@@ -115,16 +124,16 @@ body {
 }
 .container4_text {
   font-family: verdana;
-  color: red;
+  color: white;
 }
 
 /* Text */
 h3 {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 h4 {
@@ -135,7 +144,7 @@ h4 {
 
 button {
   width: 100px;
-  background-color: red;
+  background-color: white;
   border: solid;
   border-color: white;
   padding: 8px;
@@ -149,7 +158,7 @@ button {
 /* Footer */
 #footer {
   font-size: 16px;
-  color: red;
+  color: white;
   text-align: center;
   bottom: 0;
   left: 700px;
