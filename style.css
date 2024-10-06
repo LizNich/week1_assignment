@@ -15,7 +15,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: center;
   flex-wrap: wrap;
   position: fixed;
   top: 0;
@@ -42,14 +41,6 @@ body {
   font-size: 30px;
 }
 
-/*home with 'nav'*/
-.two {
-  width: 80px;
-  font-size: 20px;
-  color: white;
-  font-family: verdana;
-}
-
 /* Images */
 .section {
   height: 100vh;
@@ -68,27 +59,28 @@ body {
   background-image: url(./end.jpg);
 }
 
-/* Pages */
+/* Pages - should be overlayed on images */
 .container_columns {
-  /*width: 50%;
+  width: 100%;
   padding: 10px;
   margin: 50px;
-  height: 200px;*/
+  height: 100%;
   display: flex;
+
   flex-direction: column;
   position: absoulte;
   align-items: flex-start;
-  bottom: 40px;
+  /* bottom: 40px; */
   left: 0;
   z-index: 999;
 }
 /* Page 1 Start */
 .container2 {
-  width: 50%;
+  width: 100%;
   padding: 10px;
   margin: 50px;
   height: 200px;
-  bottom: 40px;
+  /* bottom: 40px; */
   left: 0;
   z-index: 999;
   position: absoulte;
@@ -99,11 +91,11 @@ body {
 }
 /* Page 2 Middle */
 .container3 {
-  width: 50%;
+  width: 100%;
   padding: 10px;
   margin: 50px;
   height: 200px;
-  bottom: 40px;
+  /* bottom: 40px; */
   left: 0;
   z-index: 999;
 }
@@ -114,11 +106,11 @@ body {
 }
 /* Page 3 End */
 .container4 {
-  width: 50%;
+  width: 100%;
   padding: 10px;
   margin: 50px;
   height: 200px;
-  bottom: 40px;
+  /* bottom: 40px; */
   left: 0;
   z-index: 999;
 }

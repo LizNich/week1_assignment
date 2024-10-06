@@ -10,7 +10,7 @@ Text included for 3 pages (currently shown at the bottom of image 3).
 Footer.
 
 Requirements not achieved yet:
-Navigation = The top bar is missing navigation. I've added the <nav> to Home as an example of where I got to. It's changed the text to blue underlined. I've attempted to change this in css line 44, but it's not worked.
+Navigation = The top bar is missing navigation. I added the <nav> to Home as a test but it changed the text to blue underlined.
 Placing text over the images = The text that should appear on the 3 images to represent home, shop and exhibition pages is at the bottom below the last image.
 Read More = I think the 'Read More' should be separate to the text? I've not achieved this, but in its place I added a "Here!" button with a shadow.
 
