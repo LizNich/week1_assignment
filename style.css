@@ -6,7 +6,6 @@ body {
   background-color: rgb(116, 6, 6);
 }
 
-/* Nav Bar */
 .container1 {
   width: 100%;
   min-height: 100px;
@@ -24,7 +23,6 @@ body {
   font-size: 20px;
 }
 
-/* Nav Bar boxes. Nb one is different */
 .box {
   width: 80px;
   height: 30px;
@@ -41,7 +39,6 @@ body {
   font-size: 30px;
 }
 
-/* Images */
 .section {
   height: 100vh;
   width: 100vw;
@@ -59,80 +56,35 @@ body {
   background-image: url(./end.jpg);
 }
 
-/* Pages - should be overlayed on images */
-.container_columns {
-  width: 100%;
-  padding: 10px;
-  margin: 50px;
-  height: 100%;
+/* CHANGES MADE FROM HERE */
+.container {
   display: flex;
-
   flex-direction: column;
-  position: absoulte;
-  align-items: flex-start;
-  /* bottom: 40px; */
-  left: 0;
-  z-index: 999;
-}
-/* Page 1 Start */
-.container2 {
-  width: 100%;
-  padding: 10px;
-  margin: 50px;
-  height: 200px;
-  /* bottom: 40px; */
-  left: 0;
-  z-index: 999;
-  position: absoulte;
-}
-.container2_text {
-  font-family: verdana;
+  position: absolute;
+  left: 50px;
+  top: 500px;
   color: white;
 }
-/* Page 2 Middle */
-.container3 {
-  width: 100%;
-  padding: 10px;
-  margin: 50px;
-  height: 200px;
-  /* bottom: 40px; */
-  left: 0;
-  z-index: 999;
-}
-
-.container3_text {
-  font-family: verdana;
-  color: white;
-}
-/* Page 3 End */
-.container4 {
-  width: 100%;
-  padding: 10px;
-  margin: 50px;
-  height: 200px;
-  /* bottom: 40px; */
-  left: 0;
-  z-index: 999;
-}
-.container4_text {
-  font-family: verdana;
-  color: white;
-}
-
-/* Text */
 h3 {
   font-size: 25px;
+  font-family: verdana;
+  color: white;
 }
 
 h2 {
   font-size: 30px;
+  font-family: verdana;
+  color: white;
 }
 
 h4 {
   font-size: 15px;
   border-style: solid;
   border-width: 1px;
+  font-family: verdana;
+  color: white;
 }
+/* TO HERE */
 
 button {
   width: 100px;
@@ -147,7 +99,6 @@ button {
   font-weight: bold;
 }
 
-/* Footer */
 #footer {
   font-size: 16px;
   color: white;
